@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 
 # membaca model
-stroke_model = pickle.load(open('stroke_model.sav', 'rb'))
+stroke_model = pickle.load(open('stroke.sav', 'rb'))
 
 #judul web
 st.title('Prediksi Stroke')
